@@ -26,10 +26,10 @@ set(hdf5_sha256 "563940efec30ec027108bc425f45488ce98d356798bdf743441e574c2d52dd5
 
 # Open Babel
 list(APPEND projects openbabel)
-set(openbabel_version "3-2-0")
+set(openbabel_version "3-2-1")
 set(openbabel_url "https://github.com/openbabel/openbabel/archive/openbabel-${openbabel_version}.tar.gz")
 #set(openbabel_url "https://github.com/openbabel/openbabel/archive/32cf131444c1555c749b356dab44fb9fe275271f.tar.gz")
-set(openbabel_sha256 "9aadf9f01b3d0ff15d49fcd28d7d76b923218d70bf10f99ea4cc466607f4c7e2")
+set(openbabel_sha256 "e140c25480fe1678d00b9a52462368fa4e7805fba67b12ee496784437f3e239e")
 
 # PCRE
 list(APPEND projects pcre)
