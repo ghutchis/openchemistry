@@ -8,9 +8,9 @@ set(eigen_sha256 "8586084f71f9bde545ee7fa6d00288b264a2b7ac3607b974e54d13e7162c1c
 
 # glew
 list(APPEND projects glew)
-set(glew_version "2.2.0")
+set(glew_version "2.3.1")
 set(glew_url "https://github.com/nigels-com/glew/releases/download/glew-${glew_version}/glew-${glew_version}.tgz")
-set(glew_sha256 "d4fc82893cfb00109578d0a1a2337fb8ca335b3ceccf97b97e5cc7f08e4353e1")
+set(glew_sha256 "b64790f94b926acd7e8f84c5d6000a86cb43967bd1e688b03089079799c9e889")
 
 # gtest
 list(APPEND projects gtest)
