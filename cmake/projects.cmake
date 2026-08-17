@@ -2,9 +2,9 @@ unset(projects)
 
 # Eigen
 list(APPEND projects eigen)
-set(eigen_version "3.4.0")
+set(eigen_version "3.4.1")
 set(eigen_url "https://gitlab.com/libeigen/eigen/-/archive/${eigen_version}/eigen-${eigen_version}.tar.gz")
-set(eigen_sha256 "8586084f71f9bde545ee7fa6d00288b264a2b7ac3607b974e54d13e7162c1c72")
+set(eigen_sha256 "b93c667d1b69265cdb4d9f30ec21f8facbbe8b307cf34c0b9942834c6d4fdbe2")
 
 # glew
 list(APPEND projects glew)
