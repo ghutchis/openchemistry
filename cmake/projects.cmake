@@ -76,3 +76,11 @@ ELSE()
   set(libmsym_url "https://github.com/mcodev31/libmsym/archive/85e47232376a8e735c2a7b5283f40b59b3953db1.tar.gz")
   set(libmsym_sha256 "456e2c1e0c78e212115d4d332f557f108b6d41b730d5fd6639c2452df31b7096")
 ENDIF()
+
+# sentry-native (crash reporting, Windows diagnostic builds only)
+# NOTE: this must be the release asset, not the /archive/ tarball - only the
+# release asset vendors crashpad.
+list(APPEND projects sentry)
+set(sentry_version "0.16.3")
+set(sentry_url "https://github.com/getsentry/sentry-native/releases/download/${sentry_version}/sentry-native.zip")
+set(sentry_sha256 "21380c182dde677794a7b6c57e8d6e03d79ec5a03eec67514ffa7522f7e161b5")
