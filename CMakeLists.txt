@@ -115,6 +115,8 @@ endif()
 if(WIN32)
   option(USE_SENTRY "Enable Sentry crash reporting (diagnostic builds)" OFF)
   set(SENTRY_DSN "" CACHE STRING "Sentry DSN for crash reports")
+  set(SENTRY_ENVIRONMENT "nightly" CACHE STRING
+    "Sentry environment name reported with each event")
 elseif(USE_SENTRY)
   message("Disabling USE_SENTRY - it is only supported on Windows.")
   set(USE_SENTRY OFF CACHE BOOL
